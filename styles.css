@@ -50,6 +50,17 @@ button:hover{
   
     background:#02D5FF;
 }
+.cel{
+    background: linear-gradient(180deg, #11131C 0%, #1D2130 100%);
+    cursor:pointer;
+    transition:1s;
+}
+.cel:hover{
+    background: linear-gradient(105.07deg, #13CAFF -27.48%, #C84DFF 87.77%);
+    
+    border-radius: 10px;
+
+}
 .fundo2{
 background:#1D1F2D}
 
@@ -66,4 +77,36 @@ background:#1D1F2D}
 .botao:hover{
     
     background:#02D5FF;
+}
+.aclaro{
+    background: radial-gradient(50% 50% at 50% 50%, #77E8FF 0%, #02D5FF 100%);
+    border-radius: 10px;
+    cursor:pointer;
+    width: 89.38px;
+    height: 89px;
+}
+.aceu{
+    background: radial-gradient(50% 50% at 50% 50%, #A1FFF2 0%, #0BFFDD 100%);
+    border-radius: 10px;
+    cursor:pointer;
+    width: 89.38px;
+    height: 89px;
+}
+.roxo{
+    background: radial-gradient(50% 50% at 50% 50%, #E099FF 0%, #C84BFF 100%);
+    border-radius:10px;
+    cursor:pointer;
+    width: 89.38px;
+    height: 89px;
+}
+.amarelo{
+    background: radial-gradient(50% 50% at 50% 50%, #E3FF93 0%, #C3FF18 100%);
+    border-radius: 10px;
+    cursor:pointer;
+    width: 89.38px;
+    height: 89px;
+    transition:1;
+}
+.amarelo:hover{
+    background: radial-gradient(60% 60% at 40% 40%, #C3FF18 50%,#E3FF93 50%);
 }
