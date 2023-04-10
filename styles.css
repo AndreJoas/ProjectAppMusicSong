@@ -34,6 +34,22 @@ button:hover{
   
     background:#02D5FF;
 }
+
+.but{
+    width: 34%;
+    border: solid 2px white;
+    height: 2.4rem;
+    background: linear-gradient(105.07deg, #13CAFF -27.48%, #C84DFF 87.77%);
+    transition:1s;
+    border-radius: 20px;
+    cursor:pointer;
+    
+
+}
+.but:hover{
+  
+    background:#02D5FF;
+}
 .fundo2{
 background:#1D1F2D}
 
