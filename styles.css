@@ -82,8 +82,16 @@ background:#1D1F2D}
     background: radial-gradient(50% 50% at 50% 50%, #77E8FF 0%, #02D5FF 100%);
     border-radius: 10px;
     cursor:pointer;
+    transition:1s;
+
     width: 89.38px;
     height: 89px;
+}
+
+.aclaro:hover{
+    box-shadow: aqua 0px 5px 20px ;
+    background: radial-gradient(100% 100% at 10% 10%, #77E8FF 70%,#02D5FF 30%);
+
 }
 .aceu{
     background: radial-gradient(50% 50% at 50% 50%, #A1FFF2 0%, #0BFFDD 100%);
@@ -91,13 +99,29 @@ background:#1D1F2D}
     cursor:pointer;
     width: 89.38px;
     height: 89px;
+    transition:1s;
+
 }
+
+.aceu:hover{
+    box-shadow: blue 0px 5px 20px ;
+    background: radial-gradient(30% 30% at 70% 70%, #A1FFF2 50%,#0BFFDD 50%);
+
+}
+
 .roxo{
     background: radial-gradient(50% 50% at 50% 50%, #E099FF 0%, #C84BFF 100%);
     border-radius:10px;
     cursor:pointer;
     width: 89.38px;
+    transition:1s;
+
     height: 89px;
+}
+.roxo:hover{
+    box-shadow: violet 0px 5px 20px ;
+    background: radial-gradient(70% 70% at 30% 30%, #E099FF 50%,#C84BFF 50%);
+
 }
 .amarelo{
     background: radial-gradient(50% 50% at 50% 50%, #E3FF93 0%, #C3FF18 100%);
@@ -105,8 +129,10 @@ background:#1D1F2D}
     cursor:pointer;
     width: 89.38px;
     height: 89px;
-    transition:1;
+    transition:1s;
 }
 .amarelo:hover{
+    box-shadow: yellow 0px 5px 10px ;
     background: radial-gradient(60% 60% at 40% 40%, #C3FF18 50%,#E3FF93 50%);
 }
+
